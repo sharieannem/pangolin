@@ -91,10 +91,34 @@
 
   <div class="title">
     <i class="completed dropdown icon"></i>
-    Confirmation
+    <h2 id="header">CONFIRMATION</h2>
   </div>
-  <div class="content">
-    <p>There are many breeds of dogs. Each breed varies in size and temperament. Owners often select a breed of dog that they find to be compatible with their own lifestyle and desires from a companion.</p>
+  <div class="content" id="sections">
+
+    <div class="ui form">
+      <div class="inline fields">
+      
+        <label><h3 style="margin-right: 10em;">Is this a drill?</h3></label>
+
+        <div class="field" style="margin-right: 10em;">
+          <div class="ui radio checkbox">
+            <input type="radio" name="confirm" checked="checked">
+            <label>YES</label>
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="ui radio checkbox">
+            <input type="radio" name="confirm">
+            <label>NO</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <button class="ui right floated primary button">SEND</button>
+      </div>
+    </div>
   </div>
 
 </div>
