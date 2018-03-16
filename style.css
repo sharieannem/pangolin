@@ -8,7 +8,7 @@ h2#header {
 }
 
 h3 {
-	font-size: 1.25em;	
+	font-size: 1.25em;
 }
 
 #main {
@@ -17,4 +17,21 @@ h3 {
 
 #sections {
 	padding: 2em 5em 3.5em 5em;
+}
+#disaster_type{
+	width: 180px;
+	height: 150px;
+	border-radius: 20px;
+	background-color: rgba(255, 0, 0, 0.2);
+	border: 5px solid red;
+}
+#disaster_type:hover{
+	width: 180px;
+	height: 150px;
+	border-radius: 20px;
+	background-color: rgba(255, 0, 0, 0.5);
+	border: 5px solid red;
+}
+#disaster{
+	font-size: 30px;
 }
