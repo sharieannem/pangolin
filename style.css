@@ -1,37 +1,43 @@
-h1 {
-	font-size: 2.5em;
+/* Put styles here */
+
+/* main.html */
+
+.border {
+    border: none;
+    margin: 1em;
 }
 
-h2#header {
-	display: inline;
-	font-size: 1.5;
+#test, #real {
+    margin: 1em;
 }
 
-h3 {
-	font-size: 1.25em;
-}
+/* end */
 
-#main {
-	padding: 2em;
-}
+/* greendisaster.php */
 
-#sections {
-	padding: 2em 5em 3.5em 5em;
-}
-#disaster_type{
+.disaster_type {
 	width: 180px;
 	height: 150px;
-	border-radius: 20px;
-	background-color: rgba(255, 0, 0, 0.2);
-	border: 5px solid red;
+	border-radius: none;
+	/*background-color: rgba(255, 0, 0, 0.2);*/
+	/*border: 5px solid red;*/
+	margin: 1em;
+	font-size: 20px;
 }
-#disaster_type:hover{
+
+.disaster_type:hover{
 	width: 180px;
 	height: 150px;
-	border-radius: 20px;
 	background-color: rgba(255, 0, 0, 0.5);
-	border: 5px solid red;
+	/*border: 5px solid red;*/
 }
-#disaster{
-	font-size: 30px;
+.disaster {
+	font-size: 20px;
+	text-align: center;
+	width: 180px;
+}
+
+span {
+    display: inline-block;
+    margin: 1em;
 }
