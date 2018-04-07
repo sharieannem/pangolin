@@ -1,0 +1,43 @@
+/* Put styles here */
+
+/* main.html */
+
+.border {
+    border: none;
+    margin: 1em;
+}
+
+#test, #real {
+    margin: 1em;
+}
+
+/* end */
+
+/* greendisaster.php */
+
+.disaster_type {
+	width: 180px;
+	height: 150px;
+	border-radius: none;
+	/*background-color: rgba(255, 0, 0, 0.2);*/
+	/*border: 5px solid red;*/
+	margin: 1em;
+	font-size: 20px;
+}
+
+.disaster_type:hover{
+	width: 180px;
+	height: 150px;
+	background-color: rgba(255, 0, 0, 0.5);
+	/*border: 5px solid red;*/
+}
+.disaster {
+	font-size: 20px;
+	text-align: center;
+	width: 180px;
+}
+
+span {
+    display: inline-block;
+    margin: 1em;
+}

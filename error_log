@@ -1,0 +1,14 @@
+[06-Apr-2018 11:23:01 UTC] PHP Parse error:  syntax error, unexpected '$method' (T_VARIABLE) in /home/gviloria/public_html/gviloria/alertsystem/main.php on line 32
+[06-Apr-2018 11:24:33 UTC] PHP Parse error:  syntax error, unexpected '$method' (T_VARIABLE) in /home/gviloria/public_html/gviloria/alertsystem/main.php on line 32
+[06-Apr-2018 23:49:40 UTC] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home/gviloria/public_html/gviloria/alertsystem/greendisaster.php on line 1
+[06-Apr-2018 23:49:40 UTC] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/gviloria/public_html/gviloria/alertsystem/greendisaster.php on line 1
+[07-Apr-2018 01:20:08 UTC] PHP Warning:  mail() expects parameter 1 to be string, array given in /home/gviloria/public_html/gviloria/alertsystem/send.php on line 18
+[07-Apr-2018 01:22:54 UTC] PHP Warning:  mail() expects parameter 1 to be string, array given in /home/gviloria/public_html/gviloria/alertsystem/send.php on line 18
+[07-Apr-2018 01:24:25 UTC] PHP Warning:  mail() expects parameter 1 to be string, array given in /home/gviloria/public_html/gviloria/alertsystem/send.php on line 18
+[07-Apr-2018 02:41:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gviloria/public_html/gviloria/alertsystem/adddisasterdb.php:28) in /home/gviloria/public_html/gviloria/alertsystem/adddisasterdb.php on line 31
+[07-Apr-2018 02:42:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gviloria/public_html/gviloria/alertsystem/adddisasterdb.php:26) in /home/gviloria/public_html/gviloria/alertsystem/adddisasterdb.php on line 29
+[07-Apr-2018 02:45:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gviloria/public_html/gviloria/alertsystem/adddisasterdb.php:26) in /home/gviloria/public_html/gviloria/alertsystem/adddisasterdb.php on line 29
+[07-Apr-2018 02:55:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gviloria/public_html/gviloria/alertsystem/adddisasterdb.php:29) in /home/gviloria/public_html/gviloria/alertsystem/adddisasterdb.php on line 32
+[07-Apr-2018 02:58:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gviloria/public_html/gviloria/alertsystem/adddisasterdb.php:29) in /home/gviloria/public_html/gviloria/alertsystem/adddisasterdb.php on line 32
+[07-Apr-2018 04:05:56 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/gviloria/public_html/gviloria/alertsystem/greenconfirm.php on line 25
+[07-Apr-2018 05:33:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/gviloria/public_html/gviloria/alertsystem/mistake.php on line 57
